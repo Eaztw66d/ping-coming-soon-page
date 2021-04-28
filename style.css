@@ -63,13 +63,13 @@ body {
 
 .notify-form {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   padding: 20px 0;
   display: flex;
 }
 
 .input-field {
-  flex: 0.65;
+  flex: 0.7;
   display: flex;
   flex-direction: column;
   margin-right: 15px;
@@ -112,7 +112,7 @@ body {
 }
 
 .buttons {
-  flex: 0.35;
+  flex: 0.3;
 }
  .buttons > button {
   width: 100%;
@@ -135,14 +135,14 @@ body {
 
 .dashboard-image-container {
   width: 100%;
-  padding: 40px 0;
+  padding: 15px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .dashboard-image-container > img {
-  width: 550px;
+  width: 650px;
   object-fit: contain;
 }
 
@@ -217,7 +217,7 @@ body {
   }
 
   .dashboard-image-container > img {
-    width: 60%;
+    width: 70%;
     object-fit: contain;
   }
 
